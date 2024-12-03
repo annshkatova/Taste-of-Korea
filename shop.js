@@ -28,7 +28,7 @@ async function getResponse() {
     let content = await response.text()
     console.log(content)
     content = JSON.parse(content)
-    content = content.splice(0, 11)
+    content = content.splice(0, 12)
 
     console.log(content)
     let key
